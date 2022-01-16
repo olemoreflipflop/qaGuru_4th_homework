@@ -5,7 +5,7 @@ public class Apartment {
     private int floor;
     private double area;
     private int rooms;
-    private String rent; //строкой, т.к. никаких действий со стоимостью не проводится и добавлен значек валюты
+    private String rent; //строкой, т.к. никаких действий со стоимостью не проводится
 
     public Apartment(String address, int floor, double area, int rooms, String rent) {
         this.address = address;
